@@ -3,4 +3,5 @@ project(cli2048)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(cli2048 main.cpp)
+add_executable(cli2048 main.cpp
+        Map.cpp)
